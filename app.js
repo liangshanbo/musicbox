@@ -56,5 +56,8 @@ app.use(function(err, req, res, next) {
   });
 });
 
+app.listen(8888,function(){
+  console.log('listen:8888');
+});
 
 module.exports = app;
